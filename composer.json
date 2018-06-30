@@ -1,0 +1,23 @@
+{
+    "name": "jhonny/phpunit",
+    "description": "Projeto de estudos do phpunit",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jhonny Freire",
+            "email": "jhonny@jhonnyfreire.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BrUtils\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
